@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  height: 100%;
+  font-weight: 700;
+  background-image: url("../img/Frame.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 40px;
+  font-weight: bold;
+  color: rgb(88, 0, 125);
+}
+
+.login-form {
+  height: 600px;
+  width: 650px;
+  padding: 0 70px;
+  background-color: #d0b4ed;
+  box-shadow: 12px 12px 22px #bbbbbb;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.form-control {
+  height: 50px;
+  background-color: white;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  border-radius: 20px;
+  border: 2px solid rgb(224, 224, 224);
+}
+
+button[type="button"] {
+  border-radius: 20px;
+  border: 2px solid rgb(224, 224, 224);
+  background-color: white;
+}
+
+.btn-login {
+  background-color: #513ec4;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 40px;
+  color: white;
+}
+
+.btn-login:hover {
+  background-color: rgb(76, 76, 255);
+  color: white;
+}
+
+.link {
+  color: #c952ab;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: rgb(0, 13, 255);
+  text-decoration: none;
+}
+
+.mt-3 {
+  text-align: center;
+  color: #5643c6;
+  padding-top: 20px;
+}
